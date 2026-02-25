@@ -120,7 +120,7 @@ export default function ProductivityWidget() {
           {data.productivity.commits_today > 0 && data.todoist.today === 0 && (
             <div className="flex items-start gap-2">
               <span>✅</span>
-              <span>Strong coding day! All today's tasks complete</span>
+              <span>Strong coding day! All today&apos;s tasks complete</span>
             </div>
           )}
           {data.github.commits_today >= 5 && (
